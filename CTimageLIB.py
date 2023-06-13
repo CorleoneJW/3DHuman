@@ -2,6 +2,7 @@ from matplotlib import pyplot as plt
 import os
 import numpy as np
 import pydicom
+import cv2
 
 # Function of read CT image using the pydicom
 def readCT(dataPath):
