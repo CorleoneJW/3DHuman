@@ -18,6 +18,7 @@ def thresholdSegmentation(pixels,minThreshold,maxThreshold):
     brainMask = (pixels > minThreshold) & (pixels < maxThreshold)
     brainImage = pixels.copy()
     brainImage[~brainMask] = 0
+    brainImage[brainMask] = 1
     return brainImage
 
 def regionGrowing(image, seed_point, threshold):
