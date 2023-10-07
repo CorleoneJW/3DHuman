@@ -11,5 +11,5 @@ Download the dataset Spineweb dataset15.</br>
 https://spineweb.digitalimaginggroup.ca/</br>
 Put the data into dataset folder and run the **Spineweb_preprocess.ipynb**</br>
 Select model and run the corresponding file **Spineweb_xxxNet.ipynb** to do the segmentation.</br>
-Using **Visualize_vtk.ipynb** to generate voxel model by the result of segmentation.
+Using **Visualize_vtk.ipynb** to generate voxel model by the result of segmentation.</br>
 Run **VTK2STL.ipynb** to transfer the Voxel model into STL file.
